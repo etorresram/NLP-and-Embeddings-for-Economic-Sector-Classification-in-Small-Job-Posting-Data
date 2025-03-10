@@ -31,7 +31,7 @@ This project applies various classification models to predict economic sectors b
    git clone https://github.com/etorresram/NLP-and-Embeddings-for-Economic-Sector-Classification-in-Small-Job-Posting-Data.git
 
 
-## Results Analysis
+## Findings
 
 - **Sample Size Effect:**  
   The results presented here are based on small sample sizes (1,000 to 5,000 rows). As the sample size increases, all models show improved accuracy. This highlights the importance of having more data for better performance. Note that while TF-IDF currently outperforms the embedding methods in these small samples, Word2Vec and Doc2Vec may deliver better results when applied to larger datasets.
@@ -45,5 +45,7 @@ This project applies various classification models to predict economic sectors b
 - **Key Takeaway:**  
   Under a small sample environment, combining TF-IDF with advanced classifiers like XGBoost or SVM appears to be the most effective approach. With larger datasets, exploring Word2Vec and Doc2Vec methods may lead to further improvements.
 
+## Accuracy Matrix
 
+<img src="accuracy_matrix.png" alt="Accuracy Matrix" width="750">
    
