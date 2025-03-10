@@ -29,7 +29,6 @@ This project applies various classification models to predict economic sectors b
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/etorresram/NLP-and-Embeddings-for-Economic-Sector-Classification-in-Small-Job-Posting-Data.git
-   cd your_repository
 
 
 ## Results Analysis
