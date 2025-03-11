@@ -1,4 +1,4 @@
-# NLP-and-Embeddings-for-Economic-Sector-Classification-in-Small-Job-Posting-Data
+# NLP and Embeddings for Economic Sector Classification in Small Job Posting Data
 ### Author: etorresram
 ## Project Description
 This project applies various classification models to predict economic sectors based on the 2-digit NAICS classification for job postings. The focus is on working with small samples extracted from a larger dataset. By preprocessing the text data (cleaning, stopwords removal, lemmatization) and vectorizing it with techniques such as TF-IDF, Word2Vec, and Doc2Vec, multiple classification models are evaluated. The goal is to compare the performance of different models in predicting the correct economic sector.
